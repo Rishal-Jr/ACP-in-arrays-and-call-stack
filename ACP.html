@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        callstack
+    </title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <P id="demo2"></P>
+    <p id="demo3"></p>
+    <script>
+var person={
+    firstname:"Rishal",
+    age:14,
+};
+var fruit=[1,4,7]
+document.getElementById('demo').innerHTML=person.firstname+" is "+person.age+" years old.";
+    document.getElementById('demo1').innerHTML =fruit.join("*");
+    fruit.pop();
+     document.getElementById('demo2').innerHTML = fruit;
+
+
+    </script>
+</body>
+
+</html>
